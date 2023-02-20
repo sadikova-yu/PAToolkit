@@ -1,0 +1,14 @@
+name: base
+channels:
+  - conda-forge
+  - bioconda
+  - pcgr
+  - defaults
+dependencies:
+  - conda-build
+  - pysam
+  - pcgr
+  - numpy
+  - pybedtools
+  - matplotlib
+  - cnvkit
